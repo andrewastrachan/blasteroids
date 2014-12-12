@@ -1,0 +1,16 @@
+body {
+	background-color: black;
+}
+
+.canvas-container {
+	display: inline-block;
+	float: left;
+}
+
+.game-instructions {
+	margin: 40px;
+	color: yellow;
+	display: inline-block;
+	position: fixed;
+	border: 1px dashed yellow;
+}

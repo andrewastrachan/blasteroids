@@ -8,9 +8,23 @@
 		<script src="./lib/bullet.js"></script>
     <script src="./lib/game.js"></script>
     <script src="./lib/gameView.js"></script>
+		<link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
-    <canvas id="game-canvas" height='600' width='800'></canvas>
+  <body>	
+	<div class="canvas-container">	
+		<canvas id="game-canvas" height='600' width='800'></canvas>
+	</div>
+	
+	<div class="game-instructions">
+		CONTROLS 
+		<br>
+		-use WASD to turn 
+		<br>
+		-SPACEBAR fires bullets
+		<br>
+		-E fires the cannon(be wary of recoil)
+	</div>
+		
     <script>
       var canvasEl = document.getElementById("game-canvas");
       var ctx = canvasEl.getContext('2d');
