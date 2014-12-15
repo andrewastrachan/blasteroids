@@ -28,8 +28,8 @@
     <script>
       var canvasEl = document.getElementById("game-canvas");
       var ctx = canvasEl.getContext('2d');
-      game = new Asteroids.Game();
-      gameView = new Asteroids.GameView(game, ctx);
+      var game = new Asteroids.Game();
+      var gameView = new Asteroids.GameView(game, ctx);
       gameView.start();
     </script>
   </body>
